@@ -1,0 +1,87 @@
+﻿@charset "UTF-8";
+
+/*初期設定の余白をなくす*/
+*{
+	margin:0px;
+	padding:0px;
+}
+
+img{
+	vertical-align: bottom;
+}
+
+.clearfix:after{
+	display: block;
+	content: "";
+	clear: both;
+}
+/*bodyに関する設定*/
+
+body{
+	font-family: メイリオ, Osaka, sans-serif;
+	background: url(img/body_bg.gif);
+	height: 750px;
+}
+
+/*ページ構造に関する設定*/
+.wrapper{
+	width: 800px;
+	margin: 0 auto;
+	background-color: #fff;
+}
+
+main{
+	margin: 20px 40px;
+}
+
+header{
+	width: 800px;
+}
+
+.title{
+	color: #e88766;
+	font-size: 22px;
+	text-align: center;
+	padding:10px 0;
+}
+
+.header-nav{
+	width: 800px;
+	background-color: #dbcbc5;
+}
+
+.header-nav a{
+	color: #7a658c;
+	margin-left:45px;
+	text-decoration: none;
+}
+
+.text{
+	font-size: 14px;
+	width: 470px;
+	float: left;
+}
+
+.img{
+	width: 200px;
+	float: right;
+}
+
+.food{
+	margin-bottom: 30px;
+}
+
+.wine{
+	margin-bottom: 10px;
+}
+
+.cutlery{
+	margin-bottom: 30px;
+}
+
+footer{
+	width: 790px;
+	padding: 5px;
+	background-color: #dbcbc5;
+	text-align: center;
+}
